@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --darkblue: #1a237e;
+    --lightblue: #90a4ae;
+    --orange: #f4511e;
+    --lightorange: #ffab91;
+
+}
+
+*{
+    font-family: "Poppins", sans-serif;;
+    color: var(--lightblue);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pet{
+    padding: 10px 5%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 40px;
+   
+}
+
+.navbar::after{
+    display: inline-block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--darkblue);
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+
+.petcare{
+    font-size: 20px;
+}
+
+.petcare h3{
+    color: var(--darkblue);
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.active{
+    position: relative;
+}
+.active::before{
+    display: inline-block;
+    content: '';
+    width: 2px;
+    height: 10px;
+    background-color: var(--darkblue);
+    position: absolute;
+    bottom: -17px;
+    left: 22px;
+}
+
+.active::after{
+    display: inline-block;
+    content: '';
+    width: 44px;
+    height: 2px;
+    background-color: var(--darkblue);
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.signup p{
+    color: var(--darkblue);
+}
+
+.color{
+    color: var(--orange);
+}
+
+.takecare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 30px;
+    background-color: rgb(255, 243, 245);
+}
+
+.cata img{
+    width: 300px;
+    height: 450px;
+    border-radius: 150px;
+    padding: 25px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 60px auto;
+}
+
+.text{
+    padding: 100px;
+}
+
+.text h1{
+    color: var(--darkblue);
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.our h1{
+    color: var(--darkblue);
+}
+
+.our p{
+    line-height: 40px;
+}
+
+.cc img{
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.icon i{
+    line-height: 40px;
+    color: var(--orange);
+    font-size: 30px;
+}
+
+.icon span{
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer li{
+    margin: 10px 10px;
+}
+
+.pc{
+    color: var(--darkblue);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ot{
+    color: var(--darkblue);
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.icona i{
+    font-size: 25px;
+    color: black;
+    margin-right: 25px;
+}
+
+.care{
+    color: var(--orange);
+}
+
+.add{
+    color: var(--darkblue);
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.whitedog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: white;
+}
+
+.dog img{
+    width: 200px;
+    border-radius: 150px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.furry h1{
+    color: var(--darkblue);
+}
+
+.furry p{
+    line-height: 40px;
+}
+
+.furry a{
+    text-decoration: underline;
+    color: var(--orange);
+}
+
+.furry i{
+    color: var(--orange);
+}
+
+.christina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgb(255, 243, 245);
+    gap: 30px;
+    padding: 25px;
+}
+
+.klein img{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.favourite h1{
+    color: var(--darkblue);
+}
+
+.favourite p{
+    line-height: 40px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cats img{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    border-radius: 150px;
+    padding: 25px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.catb img{
+    top: 140px;
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+.little p{
+    font-size: 40px;
+    font-family: 700px;
+    color: var(--darkblue);
+}
+
+.phonea{
+    display: flex;
+    align-items: center;
+}
+
+.Our input{
+    width: 150px;
+    height: 50px;
+    background-color: var(--orange);
+    outline-color: var(--orange);
+}

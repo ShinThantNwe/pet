@@ -269,6 +269,11 @@ a{
     justify-content: space-between;
 }
 
+.home b{
+    color: var(--darkblue);
+    font-size: 60px;
+}
+
 .cats img{
     position: relative;
     width: 300px;
@@ -288,6 +293,10 @@ a{
     border-radius: 100px;
 }
 
+.line span{
+    line-height: 40px;
+}
+
 .little p{
     font-size: 40px;
     font-family: 700px;
@@ -299,9 +308,91 @@ a{
     align-items: center;
 }
 
-.Our input{
-    width: 150px;
+.Our{
+    line-height: 20px;
+}
+
+.btn{
+    width: 200px;
     height: 50px;
     background-color: var(--orange);
-    outline-color: var(--orange);
+    color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+}
+
+.btn i{
+    color: white;
+}
+
+.dog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cd img{
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+}
+
+.cd{
+    position: relative;
+    background-color: rgb(255, 230, 0);
+    width: 180px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.youtube i{
+    position: absolute;
+    font-size: 50px;
+    left: 300px;
+    bottom: -20px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.how p{
+    text-align: center;
+}
+
+.how h2{
+    text-align: center;
+    color: var(--darkblue);
+}
+
+.stories img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.golden img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 150px;
+    bottom: -125px;
+}
+
+.award{
+    background-color: rgb(255, 243, 245); ;
+}
+
+.blue{
+    position: relative;
+    background-color: lightskyblue;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+.blue i{
+    position: absolute;
+    color: white;
+    left: 20px;
 }
